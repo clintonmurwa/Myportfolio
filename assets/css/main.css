@@ -11637,8 +11637,13 @@ pre .code {
   transform: scale(1.1);
 }
 h6 {
-  font-size: 14px;
-  color: #333;
+  font-size: 16px;  /* Slightly larger for better readability */
+  font-weight: 600;  /* Medium bold for emphasis */
+  color: #222;  /* Darker shade for better contrast */
+  text-transform: uppercase;  /* Adds a professional touch */
+  letter-spacing: 1px;  /* Improves readability */
+  margin-top: 8px;  /* Adds spacing */
+  text-align: center;  /* Centers the text under icons */
 }
 
 
