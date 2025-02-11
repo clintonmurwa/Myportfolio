@@ -11627,6 +11627,19 @@ pre .code {
   text-align: left;
 }
 
+.stack-icon {
+  width: 60px;
+  height: 60px;
+  object-fit: contain;
+  transition: transform 0.3s ease-in-out;
+}
+.stack-icon:hover {
+  transform: scale(1.1);
+}
+h6 {
+  font-size: 14px;
+  color: #333;
+}
 
 
 @media (max-width: 767.98px) {
